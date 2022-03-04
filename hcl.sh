@@ -23,7 +23,7 @@ git clone https://github.com/Homebrew/brew $BREWDIR
 
 # Shellenv, Homebrew Appdir
 $BREWDIR/bin/brew shellenv >> $HOME/.zshrc
-echo "export HOMEBREW_CASK_OPTS="--appdir=$HOME/goinfre/Applications"" >> $HOME/.zshrc
+echo 'export HOMEBREW_CASK_OPTS="--appdir=$HOME/goinfre/Applications"' >> $HOME/.zshrc
 source $HOME/.zshrc
 
 # Formulas
