@@ -6,7 +6,7 @@
 #    By: hyeonsok <hyeonsok@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/03 02:00:26 by hyeonsok          #+#    #+#              #
-#    Updated: 2022/03/04 10:52:25 by hyeonsok         ###   ########.fr        #
+#    Updated: 2022/03/04 14:15:56 by hyeonsok         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,6 +57,10 @@ ln -s "$HOME/goinfre/Library/Application Support/Google/Chrome Canary" "$HOME/Li
 brew tap homebrew/cask-versions && brew install --cask google-chrome-canary
 
 # Apps
-## Toggle Track	957734279
-## Daisy Disk	411643860
-mas install 411643860 957734279
+## 957734279 Toggle Track
+## 411643860 Daisy Disk
+## 1284863847 Unsplash Wallpaper 
+## 1526186940 Lifeline visual Pomodoro timer
+
+mas install 1526186940 1284863847 957734279
+mas install 411643860
