@@ -15,6 +15,7 @@
 export BREWDIR="$HOME/goinfre/homebrew"
 
 rm -rf "$BREWDIR"
+rm -rf "$HOME/Applications"
 rm -rf "$HOME/goinfre/Applications"
 
 mkdir -p "$HOME/goinfre/Applications"
