@@ -56,6 +56,9 @@ mkdir -p "$HOME/goinfre/Library/Application Support/Google/Chrome Canary"
 ln -s "$HOME/goinfre/Library/Application Support/Google/Chrome Canary" "$HOME/Library/Application Support/Google/Chrome Canary"
 brew tap homebrew/cask-versions && brew install --cask google-chrome-canary
 
+## Obsidian
+brew install --cask Obsidian
+
 # Apps
 ## 957734279 Toggle Track
 ## 411643860 Daisy Disk
